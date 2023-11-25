@@ -9,14 +9,12 @@ print("Importing libraries.\n")
 
 # Libraries
 import time; print("Imported time for timers"); lib_count +=1; time.sleep(0.05)
-from password_maker import generate; print("Imported password_maker for UUIDs"); lib_count += 1; time.sleep(0.2)
+from password_maker import generate; print("Imported password_maker for UUIDs"); lib_count += 1; time.sleep(0.25)
 import fileinput; print("Imported fileinput for inputting patches"); lib_count += 1; time.sleep(0.5)
-import os; print("Imported os for system calls"); lib_count += 1
+import os; print("Imported os for system calls"); lib_count += 1; time.sleep(0.25)
 
 # Check lib_count for values. Employ plural form if needed. Esle it displays error that value
 # isn't in the explected range (0 and up) and exit
-
-lib_count = -3123
 
 if (lib_count == 0) :
     print("\nImported no libraries.")
