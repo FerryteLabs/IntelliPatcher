@@ -27,3 +27,6 @@ else :
     error_value = -11
     print("\nUnexpected value in int lib_count (lib_count = " + str(lib_count) + "). Exiting with error code \"" + error_code +"\" (" + str(error_value) +")")
     exit()
+
+def memory_read() :
+    print("Reading Memory for Program.")
