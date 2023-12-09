@@ -15,7 +15,9 @@ import time; print("Imported time for timers"); lib_count +=1; time.sleep(0.05)
 from password_maker import generate; print("Imported password_maker for UUIDs"); lib_count += 1; time.sleep(0.25)
 import fileinput; print("Imported fileinput for inputting patches"); lib_count += 1; time.sleep(0.5)
 import os; print("Imported os for system calls"); lib_count += 1; time.sleep(0.35)
-import psutil; os; print("Imported psutil for reading RAM"); lib_count += 1; time.sleep(0.25)
+import psutil; print("Imported psutil for reading RAM"); lib_count += 1; time.sleep(0.5)
+import patcher; print("Imported local package patcher for patching"); lib_count += 1; time.sleep(0.125)
+import logd; print("Imported local package logd for custom patch log events"); lib_count += 1; time.sleep(0.1)
 
 # Define memory values
 memoryResult = "Memory exists"
@@ -36,5 +38,7 @@ else :
     exit()
 
 def memory_read() :
-    print("Reading Memory for Program " + programName + "(" + programPID + ")")
-    memoryview.tobytes(memoryResult, programName, programPID)
+    print("\nReading Memory for Program")
+    time.sleep(4)
+    print("\nYour computer has memory : " + memoryResult + "\n")
+    return 0
