@@ -1,1 +1,21 @@
-*/.DS_Store
+# IDE-Specific
+# VSCode
+    .vscode
+    .vscode/
+
+# JetBrains
+    .idea/
+    .idea
+
+    .intellij/
+    .intellij
+
+#OS SPECIFIC
+# MacOS files
+    */.DS_Store
+
+# Windows
+    Desktop.ini
+
+# Linux
+    
