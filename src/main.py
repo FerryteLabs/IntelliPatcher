@@ -42,3 +42,4 @@ def memory_read() :
     time.sleep(4)
     print("\nYour computer has memory : " + memoryResult + "\n")
     return 0
+    os.system("./patcher/impl/main.o")

@@ -13,3 +13,5 @@ else :
 
 if (patch_target == "") :
     print("Your patch target cannot be empty")
+else : 
+    pass
